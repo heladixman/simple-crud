@@ -1,4 +1,4 @@
-<nav class="sticky top-0 z-50 scroll:bg-gray-100 bg-white p-4 sm:px-4 md:py-0.5 dark:bg-gray-900 w-full">
+<nav class="sticky top-0 z-50 scroll:bg-gray-100 bg-white p-4 sm:px-4 md:py-0.5dark:bg-gray-900 w-full">
   <div class="mx-auto container flex flex-wrap items-center justify-start md:justify-between">
     <div class="flex">
       <a href="/dashboard" class="flex flex-wrap items-center">
@@ -45,6 +45,12 @@
           <a href="/report-type" class="flex">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" /></svg>
             <span class="ml-3">Report Tipe</span>
+          </a>
+        </li>
+        <li class="py-2 px-4 m-2 hover:bg-gray-100 rounded-lg">
+          <a href="/user" class="flex">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+            <span class="ml-3">User</span>
           </a>
         </li>
       </ul>
